@@ -4,18 +4,37 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Logo Sony */
+
 #sony-logo {
     width: 100px;
     height: auto;
 }
 
-.jumbotron {
+/* Jumbotron top */
+
+#jumbotron-top {
     background-image: url(./img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
+    margin: 0;
 }
 
-#banner-returnal {
+#banner-returnal-logo {
     width: 300px;
-    margin: 300px 0 50px 10px;
+    margin: 300px 0 50px 20px;
+}
+
+/* Jumbotron center */
+
+#jumbotron-center {
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+#it-takestwo-logo {
+    width: 300px;
+    margin: 20px 0 20px 10px;
 }
