@@ -38,3 +38,14 @@ body {
     width: 300px;
     margin: 20px 0 20px 10px;
 }
+
+.dark-blue {
+    background-color: #161c3b;
+}
+
+/* Footer */
+
+footer {
+    background-color: #00439c;
+    color: white;
+}
