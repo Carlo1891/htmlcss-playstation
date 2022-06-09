@@ -4,11 +4,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Logo Sony */
+/* Header logo top Sony */
 
 #sony-logo {
     width: 100px;
     height: auto;
+}
+
+.logo{
+    text-align: end;
 }
 
 /* Jumbotron top */
@@ -17,12 +21,20 @@ body {
     background-image: url(./img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
-    margin: 0;
+    background-repeat: no-repeat;
 }
 
 #banner-returnal-logo {
-    width: 300px;
-    margin: 300px 0 50px 20px;
+    width: 250px;
+}
+
+.space-returnal {
+    margin-top: 300px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 25;
 }
 
 /* Jumbotron center */
@@ -31,7 +43,7 @@ body {
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     background-size: cover;
-    margin: 0;
+    background-repeat: no-repeat;
 }
 
 #it-takestwo-logo {
